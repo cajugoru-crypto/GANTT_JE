@@ -396,7 +396,17 @@ sidebar = html.Div(
             }
         ),
 
-      
+        # BOTON OCULTO PARA QUE NO FALLE EL CALLBACK
+        html.Div(
+
+            id="btn-calendario",
+
+            style={
+
+                "display": "none"
+
+            }
+        ),
 
         # LOGO SIDEBAR
         html.Img(
